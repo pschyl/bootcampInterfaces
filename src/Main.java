@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        MusicPlayer musicPlayer1 = new MusicPlayer();
-        VideoPlayer videoPlayer1 = new VideoPlayer();
+        Playable musicPlayer1 = new MusicPlayer();
+        Playable videoPlayer1 = new VideoPlayer();
 
 
         MediaController controller1 = new MediaController();
